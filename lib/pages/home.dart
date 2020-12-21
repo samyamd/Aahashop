@@ -64,7 +64,7 @@ class Home extends StatelessWidget {
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal:30.0),
-        child: Expansionpanel(),
+        child: ExtensionPanel(),
       ),
     );
   }

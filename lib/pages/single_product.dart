@@ -277,7 +277,9 @@ class _SingleProductState extends State<SingleProduct> {
                 height: 40,
               ),
 
-              Expansionpanel(),
+              ExtensionPanel(isExpanded: false, title: "Specifications", body: "SOme Specs of the ttile",),
+              SizedBox(height: 10,),
+              ExtensionPanel(isExpanded: false, title: "Specifications", body: "SOme Specs of the ttile",),
               // 'Specification', 'Description of Specifications'
               Text('After Slider'),
             ],
